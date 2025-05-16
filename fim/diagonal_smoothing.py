@@ -19,17 +19,3 @@ else:
 raise ValueError(f"Unknown smoothing method: {method}")
 
 
-
-
-
-
-# ============================
-# Notes:
-# These additions bring the `fim/` module closer to full production depth:
-# - `curvature_variance.py` measures Fisher variance per step (Bayesian flatness proxy)
-# - `fim_cache.py` stores per-task or per-layer Fisher diagonals
-# - `diagonal_smoothing.py` supports temporal and spatial denoising
-
-
-
-# Next (optional): add `gradient_noise_scale.py`, full-vector Fisher, and visual debug hooks
