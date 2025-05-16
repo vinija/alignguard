@@ -47,12 +47,4 @@ param.mul_(mask.unsqueeze(-1).unsqueeze(-1))
 
 
 
-# ============================
-# Notes:
-# ✓ `update_splitter.py`: separates ΔW into ΔW_A and ΔW_T by Fisher-magnitude masking
-# ✓ `orthogonalizer.py`: orthogonal projection into alignment-critical subspace
-# ✓ `head_masking.py`: constructs head-level dropout logic based on Fisher criticality
 
-
-
-# Next Up: Deepspeed integration, reward tracing, or causal alignment probes
