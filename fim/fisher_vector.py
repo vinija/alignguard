@@ -36,15 +36,3 @@ fisher_matrix /= max_batches
 return fisher_matrix
 
 
-
-
-
-
-# ============================
-# Notes:
-# ✓ `gradient_noise_scale.py`: Computes SNR-style curvature variance metric from empirical gradients
-# ✓ `fisher_vector.py`: Constructs full outer-product Fisher matrix (for Nyström, trace norm, etc.)
-
-
-
-# Next Up: Begin `alignguard/decomposition/` — projected update logic, orthogonal dropout, adapter routing
